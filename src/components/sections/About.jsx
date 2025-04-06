@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { RevealOnScroll } from '../RevealOnScroll';
 
 export const About = () => {
-  const frontendSkills = ['JavaScript', 'React', 'Node.js', 'CSS', 'HTML'];
-  const backendSkills = ['Node.js', 'Python', 'MongoDB', 'SQL'];
+  const frontendSkills = ['JavaScript', 'React', 'CSS', 'HTML', 'Tailwind CSS', 'WordPress'];
+  const backendSkills = ['Node.js', 'Python', 'SQL', 'Docker', 'Git'];
 
   const [openIndex, setOpenIndex] = useState(null);
 
@@ -33,7 +33,8 @@ export const About = () => {
     },
 
   ];
-
+  
+  //toggleAccordion function to manage the open/close state of the accordion items
   const toggleAccordion = (index) => {
   if (openIndex === index) {
 
@@ -45,6 +46,7 @@ export const About = () => {
   }
   
 };
+
   return (
     <section
       id="about"
@@ -58,9 +60,7 @@ export const About = () => {
 
         <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
           <p className="text-gray-300 mb-6">
-            Passionate developer with experience in creating dynamic web
-            applications. I have a strong foundation in JavaScript and React,
-            and I'm always eager to expand my skill set.
+          I'm focused on growing as a front-end and full-stack web developer, while also exploring opportunities in AI and machine learning. Some of the technologies I've worked with and practiced include:
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

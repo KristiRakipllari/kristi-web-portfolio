@@ -15,10 +15,12 @@ export const Home = () => {
                 Hi, I'm Kristi Rakipllari
             </h1>
 
-            <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                I'm a passionate software engineer with a love for 
-                creating innovative solutions. I specialize in web development,
-                and I'm always eager to learn new technologies and improve my skills.
+            <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
+                I'm a software developer with curiosity for 
+                creating innovative solutions. I am specialized front-end and full-stack web development, 
+                blending technical skill with an eye for usability. <br />
+                I’m passionate about continuous learning and eager to take on new challenges 
+                that allow me to grow and contribute to meaningful projects.
             </p>
 
             <div className="flex justify-center space-x-4">
